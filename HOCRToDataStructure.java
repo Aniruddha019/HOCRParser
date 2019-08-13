@@ -13,7 +13,7 @@ import org.jsoup.select.Elements;
 public class HOCRToDataStructure {
 
 	public static void main(String[] args) {
-		String hocrString=readAllBytesJava7("/home/akshay/digitization/JSON/out.hocr");
+		String hocrString=readAllBytesJava7("/home/aniruddha/digitization/JSON/out.hocr");
 		Document document = Jsoup.parse(hocrString);
 
 		HOCRDocument root=new HOCRDocument(document);
