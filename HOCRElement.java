@@ -82,13 +82,4 @@ public class HOCRElement {
 		return elements;
 	}
 	
-	public List<HOCRElement> getElementByTagName(String tagName){
-        List<HOCRElement> elementTags = new ArrayList<HOCRElement>();
-        if(this.parent.toString() != null) {
-        	ret
-        }
-        return elementTags;
-    }
-
-
 }
